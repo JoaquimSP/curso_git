@@ -24,5 +24,16 @@ O **Git** é uma *ferramenta essencial para qualquer desenvolvedor de software*,
 * [GitHub](https://github.com/)
 * [Git Bash](https://gitforwindows.org/)
 
+### Seções do curso:
+- [x] Seção 1: Introdução e instalação das dependências
+- [x] Seção 2: Git Fundamental
+- [x] Seção 3: Trabalhando com Branches
+- [x] Seção 4: Compartilhamento e atualização de repositório
+- [x] Seção 5: Análise e inspeção de repositório
+- [x] Seção 6: Administração de repositórios
+- [x] Seção 7: Melhorando os commits do projeto
+- [x] Seção 8: Explorando e entendendo o GitHub
+- [x] Seção 9: Markdown do básico ao avançado
+
 #
 ![Octocat Github](https://lildude.co.uk/img/octocat-primed.png)
