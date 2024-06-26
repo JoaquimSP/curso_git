@@ -1,6 +1,6 @@
 # Curso de Git e Github
 
-![Logo Git e Github](assets/img/github-git-bash.webp)
+![Logo Git, GitHub e Git Bash](assets/img/github-git-bash.png)
 
 ## Sobre:
 
@@ -19,3 +19,6 @@ O **Git** é uma *ferramenta essencial para qualquer desenvolvedor de software*,
 * git status
 * git commit -a -m "message"
 * git push
+
+#
+![Octocat Github](https://lildude.co.uk/img/octocat-primed.png)
