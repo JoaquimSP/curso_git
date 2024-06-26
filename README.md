@@ -1,7 +1,21 @@
 # Curso de Git e Github
 
-### Sobre:
+![Logo Git e Github](assets/img/github-git-bash.webp)
 
-O **Git** é uma ferramenta essencial para qualquer desenvolvedor de software, permitindo o controle de versão e a colaboração em projetos de programação. O *GitHub*, por sua vez, é uma plataforma amplamente utilizada para hospedar projetos e colaborar com outros desenvolvedores.
+## Sobre:
 
-O curso “**Git** e *GitHub* do básico ao avançado (c/ gist e *GitHub* Pages)” é uma abordagem prática e direta para o controle de versão e manutenção de repositórios. Nele, aprenderá comandos básicos e avançados do **Git**, gerenciamento de repositórios locais e externos, criação e compartilhamento de gists, criação de portfólio com *GitHub* Pages, fluxo completo de controle de versão de um projeto e muito mais.
+O **Git** é uma *ferramenta essencial para qualquer desenvolvedor de software*, permitindo o controle de versão e a colaboração em projetos de programação. O **GitHub**, por sua vez, é uma plataforma amplamente utilizada para hospedar projetos e colaborar com outros desenvolvedores. Já o **Git Bash** é um aplicativo para ambientes Microsoft Windows que oferece uma camada de emulação para fornecer uma interface de linha de comando compatível com o Bash.
+
+### Estados:
+
+1. Modificado (modified);
+2. Preparado (staged/index)
+3. Consolidado (comitted);
+
+### Comandos Git:
+* git init
+* git clone
+* git add
+* git status
+* git commit -a -m "message"
+* git push
