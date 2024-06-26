@@ -12,12 +12,12 @@ O **Git** é uma *ferramenta essencial para qualquer desenvolvedor de software*,
 3. Consolidado (comitted);
 
 ### Comandos Git:
-* git init
-* git clone
-* git add
-* git status
-* git commit -a -m "message"
-* git push
+* ```git init```
+* ```git clone```
+* ```git add```
+* ```git status```
+* ```git commit -a -m "message"```
+* ```git push```
 
 ### Links:
 * [Git](https://git-scm.com/)
