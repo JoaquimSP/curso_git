@@ -16,3 +16,8 @@ code {
     border-radius: 5px;
     overflow-x: auto;
 }
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
