@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/img/git.png" type="image/x-icon">
+    <title>Comandos Git</title>
+</head>
+<body>
+    <h1>Comandos utilizados no GIT</h1>
+    ➡️ <a href="index.html">Página Inicial</a>
+    <h2>Inicializando o Git</h2>
+    <ul>
+        <li><code>git init</code> = inicializar um novo projeto com git</li>
+        <li><code>git add .</code> = adiciona todos os arquivos alterados para um estágio para commit
+            <ul>
+                <li><code>git add nome_arquivo</code> = adiciona apenas o arquivo específico</li>
+            </ul>
+        </li>
+        <li><code>git commit -m "First Commit"</code> = mensagem do commit</li>
+        <li><code>git status</code> = mostra o status das atualizações atuais</li>
+    </ul>
+
+    <hr>
+
+    <h3>Verifica as atualizações</h3>
+    <ul>
+        <li><code>git log</code> = mostra todos os commits, log de alterações</li>
+        <li><code>git diff</code> = mostra a diferença entre o arquivo atual e o último commit realizado</li>
+        <li><code>git restore nome_arquivo</code> = restaura o estado do arquivo do último commit (ou outro commit específico se usar outras opções)</li>
+    </ul>
+
+    <hr>
+
+    <h3>Branches</h3>
+    <ul>
+        <li><code>git branch</code> = mostra todas as branches e indica em qual você está</li>
+        <li><code>git checkout -b name-branch</code> = cria e muda para uma nova branch</li>
+    </ul>
+
+    <ul>
+        <li><code>git checkout master</code> = muda para a branch master
+            <ul>
+                <li><code>git merge desenvolvimento</code> = mescla as alterações da branch desenvolvimento para a branch principal (master)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <ul>
+        <li><code>git checkout desenvolvimento</code>
+            <ul>
+                <li><code>git merge master</code> = mescla as alterações da branch master para a branch desenvolvimento</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>Trabalhando com repositório remoto</h3>
+    <ul>
+        <li><code>git remote add origin https://endereço.com/arquivo.git</code> = adiciona um repositório remoto</li>
+        <li><code>git push -u origin main</code> = envia as alterações locais para o repositório remoto e define a branch main como padrão para futuros pushes</li>
+        <li><code>git pull origin name-branch</code> = puxa as alterações do repositório remoto para a branch especificada localmente</li>
+    </ul>
+
+    <ul>
+        <li><code>git fetch</code> = sincroniza o local com o remoto, baixando todas as referências remotas, mas sem fazer merge</li>
+    </ul>
+
+    <hr>
+
+    <h3>Clonando um repositório</h3>
+    <ul>
+      <li><code>git clone endereço.git</code>= faz o clone do repositório remoto na sua máquina.</li>
+    </ul>
+
+    <hr>
+</body>
+</html>
