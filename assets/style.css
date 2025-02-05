@@ -1,12 +1,11 @@
-* {
-    
-}
+@charset "UTF-8";
 
 body {
     color: white;
     background-color: #191919;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif, sans-serif;
-    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 20px;
 }
 
 code {
@@ -19,5 +18,47 @@ code {
 
 a {
     color: orangered;
+    font-weight: bold;
     text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Página dos Emojis */
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    color: white;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    background-color: rgb(187, 67, 24);
+}
+
+/* Cor de fundo para linhas impares */
+tr:nth-child(odd) {
+    background-color: #27323b;
+}
+
+/* Cor de fundo par alinhas pares */
+tr:nth-child(even) {
+    background-color: #1d2329;
+}
+
+.code {
+    background-color: #444c56;
+    color: #ffcc00;
+    padding: 2px 5px;
+    border-radius: 4px;
 }
